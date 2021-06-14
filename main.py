@@ -3,6 +3,7 @@ from grid import SelectGrid
 import pygame as pg
 
 # Pygame initializitaion
+pg.display.set_caption('Game of Life')
 pg.init()
 fps = 60
 clock = pg.time.Clock()
@@ -11,12 +12,13 @@ clock = pg.time.Clock()
 SCREEN_WIDTH = 1200
 SCREEN_HEIGHT = 600
 CELL_SIZE = 10
+GRID_SIZE = 1
 
 # Game objects
 grid_selector = SelectGrid(SCREEN_HEIGHT//CELL_SIZE,
                            SCREEN_WIDTH//CELL_SIZE,
-                           CELL_SIZE)
-game = Game(SCREEN_WIDTH, SCREEN_HEIGHT, grid_selector)
+                           CELL_SIZE - GRID_SIZE, GRID_SIZE)
+game = Game(SCREEN_WIDTH, SCREEN_HEIGHT, grid_selector, CELL_SIZE)
 
 # Controls if player ended creation of the starting grid
 finish = False
