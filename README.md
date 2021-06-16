@@ -1,6 +1,6 @@
 # The Game Of Life
 
-It's a copy of the [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
+It's a copy of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
 This project was made with python [PyGame](https://www.pygame.org/news) and
 [NumPy](https://numpy.org/) libraries.
