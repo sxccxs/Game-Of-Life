@@ -5,7 +5,7 @@ It's a copy of the [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_
 This project was made with python [PyGame](https://www.pygame.org/news) and
 [NumPy](https://numpy.org/) libraries.
 
-![](ReadMe\game_of_life.gif)
+![](https://i.vgy.me/QHyvQF.gif)
 
 ## Installation
 
